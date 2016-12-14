@@ -57,7 +57,7 @@ public class JTextFindHandler implements ActionListener{
 				String str = view.getText();
 				Highlighter highlighter = textPane.getHighlighter();
 				highlighter.removeAllHighlights();
-			    HighlightPainter painter = new DefaultHighlighter.DefaultHighlightPainter(Color.BLUE);
+			    HighlightPainter painter = new DefaultHighlighter.DefaultHighlightPainter(Color.YELLOW);
 			    if(sCase == -1){
 	    			match = match.toLowerCase();
 	    			str = str.toLowerCase();
